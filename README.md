@@ -58,7 +58,7 @@ The unique name of the component in the CCD universe.
 
 The name must be ascii 7bit lower case letters, digits or the dash character. Capital letters and underscore is not allowed.
 
-The same software may exist as multiple components with different build setting.
+The same software may exist as multiple components but with different build settings, tool chain settings, custom patches, etc.
 
 CCD_HELLOWORLD_NAME = helloworld
 
