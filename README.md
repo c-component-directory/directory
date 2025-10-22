@@ -28,7 +28,7 @@ Integration repositories may be used to provide custom configuration options, cu
 
 ----------
 
-## Component integration file
+## The component integration file
 
 The integration file is used to integrate a component into a application or and other components.
 
@@ -45,6 +45,30 @@ Variables:
 Required.
 
 The unique name of the component in the CCD universe.
+
+The name must be ascii 7bit lower case letters, digits or the dash character. Capital letters and underscore is not allowed.
+
+The same software may exist as multiple components with different build setting.
+
+CCD_HELLOWORLD_NAME = helloworld
+
+## CCD_\<componentname\>_DESCRIPTION
+
+Required.
+
+One line description of the component.
+
+This is used by the search system "make ccd_search" to list and search among components.
+
+## CCD_\<componentname\>_DEPENDENCIES
+
+Optional.
+
+If the component is have dependencies, the component names are listed here separated by white space.
+
+The CCD build system will automatically pull and build the dependencies prior to building the parent component.
+
+A dependency chain may be infinitely long.
 
 ## CCD_\<componentname\>_VERSION
 
@@ -110,3 +134,10 @@ Example:
 
 CCD_MYCOMPONENT_ARCH = arm64
 
+# Why CCD?
+
+### Because we love C
+
+### C is the divine language and the lingua franca of UNIX, BSD and Linux
+
+I wanted and needed a way to share reusable C code across projects in a easy and convienant manner. No need to duplicate code in project directories, no need to download and build tarballs or install operating system packages.
