@@ -80,7 +80,7 @@ Git tag of Semantic verion number of format "x.y.z"
 
 Git commit id representing the version.
 
-Used by up-stream project to lock to a specific version of a component.
+Used by up-stream projects or components to lock to a specific version or release of a component for compatibility.
 
 ## CCD_\<componentname\>_MIRROR_1
 
