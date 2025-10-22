@@ -22,7 +22,7 @@ Integration repositories may be used to provide custom configuration options, cu
 
 ### A component may be as small as you wish or as big as you wish. An component may be of experimental or prototype status.
 
-### Components of non-public interest are welcome. Even if you are the only user of it.
+### Components of non-public interest are welcome. Even if you are the only single user of the code.
 
 ### Your source code may look like a pile of sh*t, you're still very much welcome to publish it in CCD as long as it do build into both a shared library and a static library!
 
