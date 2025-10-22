@@ -2,7 +2,7 @@
 
 ### Directory of reusable components/modules for C.
 
-This a C equlient for "pip" in Python, "npm" in NodeJS and Go-build in Golang.
+This a C equillent for "pip" in Python, "npm" in NodeJS and "go-build" in Golang.
 
 ### What is does
 
@@ -10,7 +10,17 @@ Automatically pulls the source of code a project its external git repository.
 
 Builds the source code into a shared library and a static library for consumption of the parent project.
 
+Shared and static libraries are available in:
 
+\<toplevel\>/components/\<componentname\>/lib
+
+Header files are available in:
+
+\<toplevel\>/components/\<componentname\>/include
+
+The component integration files of the directory is available in:
+
+\<toplevel\>/components/directory
 
 Some repositories under c-components-directory/ are full project source code. Other repositories are integration wrappers for existing external git repositories.
 
