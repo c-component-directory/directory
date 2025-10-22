@@ -140,6 +140,8 @@ One or more Architecture ids (uname -m) separated by space.
 
 If component contains inline assembly code or assembly files for a specific architecture this is used to indicate compability.
 
+Micro-controllers like esp32 and stm32 use this for code that is hardware specific like GPIO interfacing or interfacing with attached peripherals.
+
 Example:
 
 CCD_MYCOMPONENT_ARCH = arm64
@@ -148,6 +150,4 @@ CCD_MYCOMPONENT_ARCH = arm64
 
 ### Because we love C
 
-### C is the divine language and the lingua franca of UNIX, BSD, Linux and embedded micro-controllers
-
-Needed a way to share reusable C code across projects in a easy and convienant manner. No need to duplicate code in project directories, no need to download and build tarballs or install operating system packages.
+Had the itching need of a way to share reusable C code across projects in a easy and convienant manner. No need to duplicate code in project directories, no need to download and build tarballs or install operating system packages.
