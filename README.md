@@ -1,10 +1,10 @@
 # C Component Directory
 
-### Directory of reusable components/modules for C.
+### Public directory of reusable components/modules for C.
 
 This a C equillent for "pip" in Python, "npm" in NodeJS and "go-build" in Golang.
 
-### What is does
+### What it does
 
 Automatically pulls the source of code a project its external git repository.
 
