@@ -2,6 +2,16 @@
 
 ### Directory of reusable components/modules for C.
 
+This a C equlient for "pip" in Python, "npm" in NodeJS and Go-build in Golang.
+
+### What is does
+
+Automatically pulls the source of code a project its external git repository.
+
+Builds the source code into a shared library and a static library for consumption of the parent project.
+
+
+
 Some repositories under c-components-directory/ are full project source code. Other repositories are integration wrappers for existing external git repositories.
 
 Integration repositories may be used to provide custom configuration options, custom build options or custom patches need to build and integrate the component.
