@@ -148,6 +148,6 @@ CCD_MYCOMPONENT_ARCH = arm64
 
 ### Because we love C
 
-### C is the divine language and the lingua franca of UNIX, BSD and Linux
+### C is the divine language and the lingua franca of UNIX, BSD, Linux and embedded micro-controllers
 
-I wanted and needed a way to share reusable C code across projects in a easy and convienant manner. No need to duplicate code in project directories, no need to download and build tarballs or install operating system packages.
+Needed a way to share reusable C code across projects in a easy and convienant manner. No need to duplicate code in project directories, no need to download and build tarballs or install operating system packages.
