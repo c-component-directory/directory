@@ -1,6 +1,20 @@
 # C Component Directory
 
-Directory of reusable components/modules for C
+Directory of reusable components/modules for C.
+
+Some repositories under c-components-directory/ are full project source code. Other repositories are integration wrappers for existing external git repositories.
+
+Integration repositories may be used to provide custom configuration options, custom build options or custom patches need to build and integrate the component.
+
+### We do not discriminate on code quality. Everyone is welcome to publish their reusable component here.
+
+### Up-stream projects (applications or other components) have the responsibility of picking and choosing based on their quality and security requirements.
+
+### A component may be as small as you wish or as big as you wish. An component may be of experimental or of prototype status.
+
+### Components of non-public interest are welcome. Even if you are the only user of it.
+
+### Your source code may look like a pile of sh*t, you're still very much welcome to publish it in CCD as long as it builds into a shared library and a static library!
 
 ## Component integration file
 
